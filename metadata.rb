@@ -1,4 +1,5 @@
 maintainer       "Mark Sonnabaum"
+name             "xhprof"
 maintainer_email "mark.sonnabaum@acquia.com"
 license           "Apache 2.0"
 description       "Installs xhprof php extension from Brian Mercer's launchpad PPA"
