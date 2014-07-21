@@ -16,6 +16,8 @@
 #
 
 include_recipe "php"
+include_recipe "apt"
+
 case node[:platform]
 when "debian","ubuntu"
   %w{python-software-properties pkg-config}.each do |pkg|
