@@ -30,6 +30,7 @@ when "debian","ubuntu"
     components ["main"]
     keyserver "keyserver.ubuntu.com"
     key "8D0DC64F"
+    not_if { node["platform_version"] >= "14.04" }
   end
 
   package "php5-xhprof"
